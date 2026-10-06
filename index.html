@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nivedita Hallad | Portfolio</title>
+<style>
+:root{--bg:#f7f8fc;--card:#fff;--text:#1f2433;--muted:#5b6275;--accent:#4f46e5;--line:#e3e6f0}
+@media (prefers-color-scheme:dark){:root{--bg:#12141c;--card:#1b1e29;--text:#eceef6;--muted:#9aa1b6;--accent:#8b87ff;--line:#2a2e3d}}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+header{padding:56px 20px 40px;text-align:center}
+header h1{margin:0 0 6px;font-size:2.2rem}
+header p{margin:0;color:var(--muted)}
+nav{display:flex;gap:18px;justify-content:center;padding:12px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg)}
+nav a{color:var(--accent);text-decoration:none;font-weight:600}
+main{max-width:820px;margin:0 auto;padding:0 20px 48px}
+section{margin-top:40px}
+h2{border-left:4px solid var(--accent);padding-left:10px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card h3{margin:0 0 6px}
+.card p{margin:0 0 10px;color:var(--muted)}
+a{color:var(--accent)}
+.tags span{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px 12px;margin:3px 4px 3px 0;font-size:.9rem}
+footer{text-align:center;color:var(--muted);padding:24px;font-size:.9rem}
+</style>
+</head>
+<body>
+<header>
+<h1>Nivedita Hallad</h1>
+<p>B.Tech CSE student &middot; learning to build, one program at a time</p>
+</header>
+<nav><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+<main>
+<section id="about">
+<h2>About</h2>
+<p>I'm a B.Tech Computer Science and Engineering student who started with a first C program and now practises problem solving on LeetCode. Pair programming with a partner taught me how much faster ideas improve when two people read the same code. My goal is to grow into a confident software developer.</p>
+</section>
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>Hello World</h3><p>My first C program, written while setting up VS Code, Git and GitHub.</p><a href="https://github.com/niveditahallad/hello-world">View repository</a></div>
+<div class="card"><h3>Pair Programming</h3><p>A collaborative coding session using GitLens and VS Code Live Share.</p><a href="https://github.com/niveditahallad">See my GitHub</a></div>
+<div class="card"><h3>LeetCode Solutions</h3><p>C solutions to practice problems, with a progress log.</p><div class="tags"><span>arrays-strings</span><span>basic-algorithms</span><span>stacks</span></div><a href="https://github.com/niveditahallad/leetcode-solutions">View repository</a></div>
+</div>
+</section>
+<section id="skills">
+<h2>Skills</h2>
+<div class="tags"><span>C</span><span>Problem solving</span><span>Git &amp; GitHub</span><span>VS Code</span><span>Teamwork</span></div>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<p>Find my work and get in touch on <a href="https://github.com/niveditahallad">GitHub</a>.</p>
+</section>
+</main>
+<footer>&copy; 2026 Nivedita Hallad</footer>
+</body>
+</html>
